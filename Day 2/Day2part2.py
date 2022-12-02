@@ -17,7 +17,6 @@ def calculate(input):
 	else:
 		decision = win(opponent, choice)
 		points = 6
-	#print(decision, end =" ")
 	points += pointTable[decision]
 	return points 
 	
