@@ -1,3 +1,4 @@
+#Part 1
 f = open("calories.txt", "r")
 
 elves = []
@@ -10,3 +11,10 @@ for i in f.readlines():
 	curCal += (int(i.strip("\n")))
 f.close()
 print(max(elves))
+
+#Part 2
+curCal = 0
+for i in range(3):
+	maxIndex = elves.index(max(elves))
+	curCal += elves.pop(maxIndex)
+print(curCal)
