@@ -1,4 +1,3 @@
-
 wins = {"A": "Z", "B": "X", "C": "Y"}
 draws = {"A": "X", "B": "Y", "C": "Z"}
 pointTable = {"X": 1, "Y": 2, "Z": 3}
