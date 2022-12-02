@@ -35,7 +35,6 @@ f.close()
 
 #summing every match
 totalPoints = 0
-tempList = (["A", "X"], ["A", "Y"], ["A", "Z"])
 for i in guideList:
 	totalPoints += calculate(i)
 	
