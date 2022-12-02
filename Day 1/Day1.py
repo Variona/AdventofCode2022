@@ -8,4 +8,5 @@ for i in f.readlines():
 		curCal = 0
 		continue
 	curCal += (int(i.strip("\n")))
+f.close()
 print(max(elves))
