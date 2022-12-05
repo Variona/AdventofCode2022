@@ -5,7 +5,7 @@ def intifier(input):
 	return inputList
 
 def rangeAnalyzer(input1, input2):
-	if input1[0] <= input2[0] and input1[1] >= input2[0]:#parenthesis are a hell of a drug
+	if input1[0] <= input2[0] and input1[1] >= input2[0]:#parentheses are a hell of a drug
 		return True
 	elif input2[0] <= input1[0] and input2[1] >= input1[0]:
 		return True
